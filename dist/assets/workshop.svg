@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1100" viewBox="0 0 1400 1100">
+<defs>
+ <linearGradient id="room" x2="1" y2="1"><stop stop-color="#5b624e"/><stop offset=".55" stop-color="#2e3b31"/><stop offset="1" stop-color="#1e2925"/></linearGradient>
+ <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#bc8250"/><stop offset=".4" stop-color="#805534"/><stop offset="1" stop-color="#493723"/></linearGradient>
+ <linearGradient id="metal" x2="0.1" y2="1"><stop stop-color="#d2d1c7"/><stop offset=".2" stop-color="#aaa99f"/><stop offset=".6" stop-color="#dedbd0"/><stop offset="1" stop-color="#93958b"/></linearGradient>
+ <linearGradient id="case" x2="0" y2="1"><stop stop-color="#4f544d"/><stop offset="1" stop-color="#202822"/></linearGradient>
+ <linearGradient id="knob"><stop stop-color="#777e72"/><stop offset=".45" stop-color="#dddcd2"/><stop offset=".7" stop-color="#b9baae"/><stop offset="1" stop-color="#767c70"/></linearGradient>
+ <radialGradient id="light"><stop stop-color="#d5cdb2" stop-opacity=".35"/><stop offset="1" stop-color="#d5cdb2" stop-opacity="0"/></radialGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="24"/></filter>
+ <pattern id="grain" width="600" height="48" patternUnits="userSpaceOnUse"><path d="M-10 8Q130 -12 340 10T650 8M-10 20Q200 39 380 22T650 20M-10 35Q250 15 420 36T650 40" fill="none" stroke="#322c1c" opacity=".22" stroke-width="2"/></pattern>
+ <pattern id="vents" width="16" height="12" patternUnits="userSpaceOnUse"><rect x="2" y="3" width="9" height="4" rx="2" fill="#0f1b16" opacity=".65"/></pattern>
+ <pattern id="cloth" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0H8M0 4H8M0 0V8M4 0V8" stroke="#b4a78b" stroke-opacity=".19" stroke-width="1"/></pattern>
+</defs>
+<rect width="1400" height="1100" fill="url(#room)"/>
+<ellipse cx="950" cy="120" rx="1000" ry="700" fill="url(#light)"/>
+<!-- acoustic wall and walnut speaker -->
+<path d="M0 0H320V800H0Z" fill="#70715b" opacity=".2"/>
+<path d="M980 72L1294 28L1395 102V697L1082 756L980 670Z" fill="url(#wood)"/>
+<path d="M1000 95L1273 54V678L1000 724Z" fill="#202820"/>
+<path d="M1000 95L1273 54V678L1000 724Z" fill="url(#cloth)"/>
+<rect x="1095" y="635" width="75" height="17" rx="1" fill="#bfa678"/>
+<path d="M1012 74L1288 30" stroke="#d8b68c" stroke-width="4" opacity=".5"/>
+<!-- the bench -->
+<path d="M0 750L1400 605V1100H0Z" fill="url(#wood)"/>
+<path d="M0 750L1400 605V1100H0Z" fill="url(#grain)"/>
+<path d="M0 1045L1400 887V1100H0Z" fill="#292e23" opacity=".35"/>
+<ellipse cx="659" cy="825" rx="560" ry="105" fill="#0e1814" opacity=".8" filter="url(#shadow)"/>
+<!-- amplifier body -->
+<path d="M151 440L915 360L1160 534L396 625Z" fill="url(#case)"/>
+<path d="M151 440L915 360L1160 534L396 625Z" fill="url(#vents)"/>
+<path d="M151 440L396 625V905L151 733Z" fill="#353e33"/>
+<path d="M396 625L1160 534V813L396 905Z" fill="url(#metal)"/>
+<path d="M396 625L1160 534V549L396 640Z" fill="#ece9d9" opacity=".7"/>
+<path d="M396 888L1160 797V813L396 905Z" fill="#686f63"/>
+<path d="M430 652L1127 570" stroke="#4b554b" stroke-width="1" opacity=".4"/>
+<!-- feet -->
+<path d="M436 902L511 893V925L440 934Z" fill="#18241c"/>
+<path d="M1040 828L1113 819V850L1043 858Z" fill="#18241c"/>
+<!-- meters -->
+<g transform="matrix(1,-.12,0,1,477,689)">
+ <rect width="225" height="108" rx="7" fill="#394438"/>
+ <rect x="8" y="8" width="209" height="91" rx="3" fill="#d7c594"/>
+ <path d="M30 77Q112 -5 195 77" fill="none" stroke="#776e50" stroke-width="1.6"/>
+ <path d="M45 62l-4 -8m23 -6l-4 -8m26 -3l-2 -9m26 4v-10m25 13l3 -9m20 18l5 -8m14 21l6 -7" stroke="#665e44" stroke-width="2"/>
+ <path d="M112 95L72 40" stroke="#8d4225" stroke-width="2.8"/>
+ <circle cx="112" cy="95" r="5" fill="#3d4737"/>
+ <text x="112" y="74" fill="#646143" font-family="sans-serif" font-size="11" text-anchor="middle" letter-spacing="3">POWER LEVEL</text>
+</g>
+<g transform="matrix(1,-.12,0,1,728,659)">
+ <rect width="225" height="108" rx="7" fill="#394438"/>
+ <rect x="8" y="8" width="209" height="91" rx="3" fill="#d7c594"/>
+ <path d="M30 77Q112 -5 195 77" fill="none" stroke="#776e50" stroke-width="1.6"/>
+ <path d="M45 62l-4 -8m23 -6l-4 -8m26 -3l-2 -9m26 4v-10m25 13l3 -9m20 18l5 -8m14 21l6 -7" stroke="#665e44" stroke-width="2"/>
+ <path d="M112 95L96 31" stroke="#8d4225" stroke-width="2.8"/>
+ <circle cx="112" cy="95" r="5" fill="#3d4737"/>
+ <text x="112" y="74" fill="#646143" font-family="sans-serif" font-size="11" text-anchor="middle" letter-spacing="3">POWER LEVEL</text>
+</g>
+<g transform="matrix(1,-.12,0,1,1000,682)"><circle cy="25" cx="37" r="37" fill="#656f60"/><circle cx="40" cy="22" r="35" fill="url(#knob)"/><path d="M40 -7V6" stroke="#56604e" stroke-width="3"/></g>
+<g transform="matrix(1,-.12,0,1,445,823)"><circle r="12" fill="#4e5b4d"/><circle cx="2" cy="-2" r="10" fill="url(#knob)"/><circle cx="28" r="3" fill="#a4b56e"/></g>
+<text x="548" y="866" transform="rotate(-6.8 548 866)" font-family="sans-serif" font-size="17" fill="#4f5b4c" letter-spacing="6">M c C A N N</text>
+<text x="900" y="816" transform="rotate(-6.8 900 816)" font-family="monospace" font-size="9" fill="#4c5748" letter-spacing="1">STEREO POWER AMPLIFIER</text>
+<!-- precise fasteners -->
+<g fill="#596451"><circle cx="415" cy="651" r="4"/><circle cx="1140" cy="565" r="4"/><circle cx="415" cy="877" r="4"/><circle cx="1140" cy="790" r="4"/></g>
+<!-- record sleeve foreground -->
+<path d="M48 880L265 860L365 1040L141 1066Z" fill="#dad5ba"/><path d="M72 905L247 890L323 1022L148 1042Z" fill="#394a3b"/><ellipse cx="197" cy="966" rx="53" ry="57" transform="rotate(-29 197 966)" fill="#182c23"/><ellipse cx="197" cy="966" rx="16" ry="18" transform="rotate(-29 197 966)" fill="#bd804b"/>
+</svg>
